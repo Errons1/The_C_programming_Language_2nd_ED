@@ -4,7 +4,7 @@
 #define OUT 0   /* outside a word */
 
 /* count lines, words, and characters in input */
-main() {
+int main() {
     int c, nl, nw, nc, state;
 
     state = OUT;
@@ -31,4 +31,5 @@ main() {
     printf("New word: %d\n", nw);
     printf("New char: %d\n", nc);
 
+    return 0;
 }

@@ -5,7 +5,7 @@
  * for fahr = 0, 20, ..., 300
  * */
 
-main() {
+int main() {
     int fahr;
     int celsius;
 
@@ -21,4 +21,6 @@ main() {
         printf("%3d\t\t%3d\n", fahr, celsius);
         fahr = fahr + step;
     }
+
+    return 0;
 }

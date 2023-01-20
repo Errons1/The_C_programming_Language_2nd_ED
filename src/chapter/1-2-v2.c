@@ -5,7 +5,7 @@
  * for fahr = 0, 20, ..., 300
  * */
 
-main() {
+int main() {
     float fahr, celsius;
     float lower, upper, step;
 
@@ -22,5 +22,6 @@ main() {
         fahr = fahr + step;
     }
 
+    return 0;
 }
 

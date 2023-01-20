@@ -1,0 +1,1 @@
+main(){int number;number=10;}

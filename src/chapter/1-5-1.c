@@ -7,11 +7,14 @@ test != would be done before the assignment =.
 */
 
 /*1st version*/
-void mainOld() {
+int main() {
     int c;
     c = getchar();
+
     while (c != EOF) {
         putchar(c);
         c = getchar();
     }
+
+    return 0;
 }
